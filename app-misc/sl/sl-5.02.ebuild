@@ -23,7 +23,7 @@ DEPEND="
 DOCS=( README.md )
 
 PATCHES=(
-	"${FILESDIR}/${P}-ctrlc.diff"
+	"${FILESDIR}/${P}-ctrlc.patch"
 )
 
 src_prepare() {
