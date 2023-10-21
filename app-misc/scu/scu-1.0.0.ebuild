@@ -5,18 +5,22 @@
 
 EAPI=8
 
-inherit cargo git-r3
+CRATES="
+	regex-syntax@0.7.1
+	regex@1.8.1
+"
+
+inherit cargo
 
 DESCRIPTION="Yet another *fetch utility is aimed at informativeness"
 HOMEPAGE="https://github.com/omnitix/scu"
-EGIT_REPO_URI="https://github.com/omnitix/scu"
+SRC_URI="
+	https://github.com/omnitix/scu/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
+	${CARGO_CRATE_URIS}
+"
 
 LICENSE="GPL-3"
 # Dependent crate licenses
 LICENSE+=" || ( Apache-2.0 MIT )"
 SLOT="0"
-
-src_unpack() {
-	git-r3_src_unpack
-	cargo_live_src_unpack
-}
+KEYWORDS="~amd64"
