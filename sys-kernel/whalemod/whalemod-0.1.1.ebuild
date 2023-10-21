@@ -24,9 +24,8 @@ LICENSE="MIT"
 SLOT="0"
 
 src_compile() {
-	local modlist=(
-		whale
-	)
+	local modlist=( whale )
+	local modargs=( KERNEL="${KV_FULL}" )
 
 	linux-mod-r1_src_compile
 }

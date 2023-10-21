@@ -5,4 +5,7 @@
         <email>cheembox573@gmail.com</email>
         <name>Alexey Lunev</name>
     </maintainer>
+    <upstream>
+        <remote-id type="github">xbt573/whalemod</remote-id>
+    </upstream>
 </pkgmetadata>
