@@ -6,6 +6,6 @@
 		<name>Alexey Lunev</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">omnitrix/scu</remote-id>
+		<remote-id type="github">omnitix/scu</remote-id>
 	</upstream>
 </pkgmetadata>
