@@ -11,9 +11,9 @@ Packages:
 * **games-misc/cowsay**:
     * Add whale cow (bruh), use with `cowsay -f whale`
 * **sys-kernel/whalemod**:
-    Out-of-tree kernel module, which adds `/dev/whale` and `/dev/whalestream` (>=0.2.0)
-    `/dev/whale` is simple ASCII whale art, when `/dev/whalestream` is an infinite stream
+    * Out-of-tree kernel module, which adds `/dev/whale` and `/dev/whalestream` (>=0.2.0)
+      `/dev/whale` is simple ASCII whale art, when `/dev/whalestream` is an infinite stream
 * **app-misc/scu**:
-    Yet another \*fetch utility is aimed at informativeness
+    * Yet another \*fetch utility is aimed at informativeness
 * **app-misc/whalesay**:
-    whale that can say anything you want.
+    * Whale that can say anything you want.
