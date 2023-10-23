@@ -28,7 +28,11 @@ BDEPEND="
 DEPEND="
 	dev-cpp/gtkmm:3.0
 "
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	virtual/wine
+	app-emulation/winetricks
+"
 
 src_configure() {
 	local mycmakeargs=(
